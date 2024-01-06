@@ -5,6 +5,10 @@ VisualStudioVersion = 17.9.34414.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BotClientContentCacheTest", "BotClientContentCacheTest\BotClientContentCacheTest.csproj", "{A412565A-61FD-4CA6-90F7-8ADF3134B976}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Telegram.Bot", "Telegram.Bot\src\Telegram.Bot\Telegram.Bot.csproj", "{73093B2D-577E-4B9F-BD17-8A3AFA22AFF6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumSerializer.Generator", "Telegram.Bot\src\EnumSerializer.Generator\EnumSerializer.Generator.csproj", "{AB1A0EFD-6100-479F-872D-F5D00ADD9160}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{A412565A-61FD-4CA6-90F7-8ADF3134B976}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A412565A-61FD-4CA6-90F7-8ADF3134B976}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A412565A-61FD-4CA6-90F7-8ADF3134B976}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73093B2D-577E-4B9F-BD17-8A3AFA22AFF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73093B2D-577E-4B9F-BD17-8A3AFA22AFF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73093B2D-577E-4B9F-BD17-8A3AFA22AFF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73093B2D-577E-4B9F-BD17-8A3AFA22AFF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB1A0EFD-6100-479F-872D-F5D00ADD9160}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB1A0EFD-6100-479F-872D-F5D00ADD9160}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB1A0EFD-6100-479F-872D-F5D00ADD9160}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB1A0EFD-6100-479F-872D-F5D00ADD9160}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
